@@ -8,3 +8,5 @@ Route::get('/', function () {
 });
 
 Route::get('home', [PerusahaanController::class, 'Home']);
+Route::get('about', [PerusahaanController::class, 'About']);
+Route::get('contact', [PerusahaanController::class, 'Contact']);
