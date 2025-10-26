@@ -5,34 +5,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DaharGo</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-primary">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm fixed-top" id="mainNav">
+        <div class="container">
             <a class="navbar-brand" href="#">DaharGo</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Tentang</a>
-                    <a class="nav-link" href="#">Hubungi</a>
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page" href="/">Home</a>
+                    <a class="nav-link {{ Request::is('about') ? 'active' : '' }}" href="/about">Tentang</a>
+                    <a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="/contact">Hubungi</a>
                 </div>
             </div>
         </div>
     </nav>
-    <header class="hero">
-        <div class="hero-content">
-            <h1 class="company-name">DaharGo</h1>
-            <p class="tagline">Makan Zaman Now, Pakai DaharGo!</p>
+    <div class="container-fluid banner">
+        <div class="container banner-konten">
+            <h1 class="company-name fs-1">DaharGo</h1>
+            <p class="tagline fs-1">Makan Zaman Now, Pakai DaharGo!</p>
         </div>
-    </header>
+    </div>
+    <div class="container pt-3 text-center k">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima iste laudantium asperiores porro.
+         Sit eaque minima consectetur, veniam nostrum deleniti?</p>
+    </div>
+    <script src="{{ asset('js/index.js') }}"></script>
 </body>
 
 </html>

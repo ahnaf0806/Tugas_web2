@@ -7,6 +7,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('home', [PerusahaanController::class, 'Home']);
+Route::get('/', [PerusahaanController::class, 'Home']);
 Route::get('about', [PerusahaanController::class, 'About']);
 Route::get('contact', [PerusahaanController::class, 'Contact']);
