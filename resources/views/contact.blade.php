@@ -59,7 +59,7 @@
                 </div>
             </div>
 
-            <div class="col-md-7">
+            <div class="col-md-6 warna-form">
                 <h3 class="text-info mb-4">Kirim Pesan</h3>
 
                 @if(session('success'))
@@ -68,7 +68,7 @@
                 </div>
                 @endif
 
-                <form action="{{ route('contact.send') }}" method="POST" class="bg-secondary p-4 rounded shadow">
+                <form action="{{ route('contact.send') }}" method="POST" class="">
                     @csrf
                     <div class="mb-3">
                         <label for="name" class="form-label">Nama Lengkap</label>
