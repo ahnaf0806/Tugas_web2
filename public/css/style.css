@@ -1,7 +1,9 @@
 .logo {
+    position: relative;
     width: 60px;
     height: 60px;
     margin-right: 20px;
+    left: 100px;
 }
 
 .banner {
@@ -25,6 +27,11 @@
 .k {
     width: 100%;
     height: 80vh;
+}
+
+.konten-tentang {
+    position: relative;
+    margin-top: 50px;
 }
 
 /* #mainNav {

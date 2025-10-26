@@ -12,8 +12,8 @@
 <body class="bg-dark d-flex flex-column min-vh-100 bg-dark text-light">
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm fixed-top navbar-custom border border-secondary flex-grow-1"
         id="mainNav">
+        <img src="{{ asset('img/Logo.png')}}" class="logo">
         <div class="container">
-            <img src="{{ asset('img/Logo.png')}}" class="logo">
             <h1 class="navbar-brand fs-3 text-info" href="#">DaharGo</h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
