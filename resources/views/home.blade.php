@@ -9,16 +9,16 @@
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm fixed-top" id="mainNav">
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm fixed-top navbar-custom " id="mainNav">
         <div class="container">
-            <a class="navbar-brand" href="#">DaharGo</a>
+            <h1 class="navbar-brand fs-3 text-info" href="#">DaharGo</h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto">
+                <div class="navbar-nav ms-auto fs-5">
                     <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page" href="/">Home</a>
                     <a class="nav-link {{ Request::is('about') ? 'active' : '' }}" href="/about">Tentang</a>
                     <a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="/contact">Hubungi</a>
@@ -32,9 +32,9 @@
             <p class="tagline fs-1">Makan Zaman Now, Pakai DaharGo!</p>
         </div>
     </div>
-    <div class="container pt-3 text-center k">
+    <div class="container pt-3 text-center k text-light">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima iste laudantium asperiores porro.
-         Sit eaque minima consectetur, veniam nostrum deleniti?</p>
+            Sit eaque minima consectetur, veniam nostrum deleniti?</p>
     </div>
     <script src="{{ asset('js/index.js') }}"></script>
 </body>
