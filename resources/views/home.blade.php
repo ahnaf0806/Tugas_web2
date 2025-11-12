@@ -30,9 +30,9 @@
     </nav>
     <div class="container-fluid banner text-light text-center">
         <div class="container banner-konten">
+            <h1 class="company-name h1">DaharGo</h1>
+            <p class="tagline fs-4">Makan Zaman Now, Pakai DaharGo!</p>
         </div>
-        <h1 class="company-name h1">DaharGo</h1>
-        <p class="tagline fs-4">Makan Zaman Now, Pakai DaharGo!</p>
     </div>
 
     <div class="container">
