@@ -36,8 +36,8 @@
     </div>
 
     <div class="container">
-        <h2 class="text-center">Menu</h2>
-        <div class="row">
+        <h2 class="text-center mt-4 mb-5">Menu</h2>
+        <div class="row row-cols-4">
              <div class="col">
                 <div class="card" style="width: 18rem;">
                      <img src="{{asset('img/kopi.jpg')}}" class="card-img-top" alt="...">
