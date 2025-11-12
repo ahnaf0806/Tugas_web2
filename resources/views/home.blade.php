@@ -12,9 +12,10 @@
 <body class="bg-dark d-flex flex-column min-vh-100 bg-dark text-light">
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm fixed-top navbar-custom border border-secondary flex-grow-1"
         id="mainNav">
-        <img src="{{ asset('img/Logo.png')}}" class="logo">
-        <div class="container">
-            <h1 class="navbar-brand fs-3 text-info" href="#">DaharGo</h1>
+        <div class="container-fluid">
+            <a class="navbar-brand fs-3 text-info" href="#">
+                <img src="{{ asset('img/Logo.png')}}" width="60px" height="60px" class="d-inline-block align-text-center">
+                DaharGo</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
