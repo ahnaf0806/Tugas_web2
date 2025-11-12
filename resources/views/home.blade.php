@@ -40,11 +40,11 @@
         <div class="row row-cols-4">
              <div class="col">
                 <div class="card" style="width: 18rem;">
-                     <img src="{{asset('img/kopi.jpg')}}" class="card-img-top" alt="...">
+                     <img src="{{asset('img/kopi.jpg')}}" class="card-img-top crop-img" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Kopi Latte</h5>
+                    <p class="card-text">Rp. 20.000</p>
+                        <a href="#" class="btn btn-primary">Beli</a>
                     </div>
                 </div>
             </div>
@@ -52,9 +52,9 @@
                     <div class="card" style="width: 18rem;">
                      <img src="{{asset('img/kopi.jpg')}}" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Americano</h5>
+                    <p class="card-text">Rp. 20.000</p>
+                        <a href="#" class="btn btn-primary">Beli</a>
                     </div>
                 </div>
             </div>
@@ -62,8 +62,8 @@
                     <div class="card" style="width: 18rem;">
                      <img src="{{asset('img/kopi.jpg')}}" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">Vietnam Drip</h5>
+                    <p class="card-text">Rp. 20.000</p>
                     <a href="#" class="btn btn-primary">Beli</a>
                     </div>
                 </div>
@@ -72,8 +72,8 @@
         <div class="card" style="width: 18rem;">
                 <img src="{{asset('img/kopi.jpg')}}" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">V60</h5>
+                    <p class="card-text">Rp. 20.000</p>
                     <a href="#" class="btn btn-primary">Beli</a>
                 </div>
             </div>
