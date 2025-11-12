@@ -36,6 +36,7 @@
     </div>
 
     <div class="container">
+        <h2>Menu</h2>
         <div class="row">
              <div class="col">
                 <div class="card" style="width: 18rem;">
