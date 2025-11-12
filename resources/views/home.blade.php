@@ -37,9 +37,9 @@
 
     <div class="container">
         <h2 class="text-center mt-4 mb-5">Menu</h2>
-        <div class="row row-cols-4">
+        <div class="row row-cols-auto-2">
              <div class="col">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 18rem; mb-3">
                      <img src="{{asset('img/kopi.jpg')}}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem; mb-3">
                      <img src="{{asset('img/kopi.jpg')}}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem; mb-3">
                      <img src="{{asset('img/kopi.jpg')}}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
