@@ -35,9 +35,9 @@
         <p class="tagline fs-4">Makan Zaman Now, Pakai DaharGo!</p>
     </div>
 
-    <footer class="bg-dark text-center text-light py-3 mt-auto border-top border-secondary">
+    {{-- <footer class="bg-dark text-center text-light py-3 mt-auto border-top border-secondary">
         <p class="mb-0">&copy; 2025 DaharGo. All rights reserved.</p>
-    </footer>
+    </footer> --}}
     <script src="{{ asset('js/index.js') }}"></script>
 </body>
 
